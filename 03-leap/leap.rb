@@ -6,4 +6,4 @@ class Year
       # Check if the year is divisible by 4 and not divisible by 100, or divisible by 400
       (year % 4).zero? && !(year % 100).zero? || (year % 400).zero?
     end
-  end
+  end  
